@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    font-family:"Diodrum Medium";
+    font-family:"Diodrum Medium" "sans-serif";
     display: flex;
     flex-direction: column;
     min-height: 100vh;
