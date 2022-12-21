@@ -1,0 +1,211 @@
+body{
+    margin: 0%;
+    font-family:"Diodrum Medium";
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*HEADER SETUP*/
+
+header{
+    background-color: white;
+    border-bottom:solid 1px lightgrey;
+    padding : 30px;
+    position: Fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 0 ;
+    width: 100%;
+    height: 50px;
+    padding : 10px;
+    
+}
+
+/*Logo*/
+
+#heart{
+    color: red;
+    font-size: 200%;
+    
+}
+
+
+#UnivHead{
+    font-weight: bold;
+}
+
+#StrasHead{
+    font-weight: lighter;
+}
+
+/*end logo*/
+
+/*link header*/
+
+.Unistramain:link{ 
+    text-decoration: none;
+}
+
+
+.Unistramain:visited{ 
+    text-decoration: none;
+    color: black;
+     
+}
+
+
+.Unistramain:hover{ 
+    text-decoration: none; 
+    
+}
+
+
+.Unistramain:active{ 
+    text-decoration: none; 
+}
+
+/*end link header*/
+
+/* END HEADER SETUP*/
+
+/*search bar style*/
+
+.boxContainer{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 500px;
+    height: 35px;
+    border:2px solid;
+    border-color:  #E0E0E0;
+    padding:0px 10px;
+    border-radius:50px ;
+}
+
+.elementContainer{
+
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.postuler{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.postuler:link{
+    text-decoration: none;
+}
+
+.postuler:visited{
+    text-decoration: none;
+}
+.postuler:active{
+    text-decoration: none;
+}
+
+
+
+.search{
+    border:none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+}
+.search:focus{
+    outline:none;
+}
+
+.material-icons{
+    vertical-align: middle;
+    float: right;
+}
+
+/*end search bar */
+
+/*table style*/
+
+.table-sortable{
+    margin-top: 30px;
+    border-collapse: collapse;
+    min-width:1000px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-sortable th,
+.table-sortable td{
+    padding:12px 8px;
+}
+
+.table-sortable td, tr{
+    border:1px solid;
+    border-color: #D5D5D5;
+}
+
+.table-sortable thead tr {
+    background-color: #E0E0E0;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+
+
+.table-sortable th {
+	cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+	content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+	content: "\25be";
+}
+
+/*end table*/
+
+
+
+/*FOOTER */
+
+footer{
+    border-top: solid 1px lightgrey;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding : 10px;
+    margin-top: 50px;
+    clear: both;
+    
+}
+
+#footertable{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#FootUniv{
+    font-weight: bold;
+    text-align: center;
+}
+
+.footerl:link{
+    text-decoration:underline;
+}
+
+.footerl:visited{
+    color:#696969  ;
+} 
+
+/*END FOOTER SETUP*/
