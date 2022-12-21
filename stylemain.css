@@ -1,7 +1,7 @@
 
 body{
     margin: 0%;
-    font-family:"Diodrum Medium";
+    font-family:"Diodrum Medium",sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -21,6 +21,7 @@ header{
     width: 100%;
     height: 50px;
     padding : 10px;
+    z-index:1000;
     
 }
 
